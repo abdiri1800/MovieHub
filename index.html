@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="netflix-favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Netbin Kenya-Watch movies online</title>
+  </head>
+  <body style="background-color: black">
+    <nav class="navbar p-4 sticky-top">
+      <!-- <a href="/"> -->
+      <a href="/" style="text-decoration: none"
+        ><h4 class="logo" style="font-weight: 700">NETBIN</h4></a
+      >
+      <div class="search-bar">
+        <input
+          id="input"
+          type="text"
+          class="form-control form-control-sm"
+          placeholder="search movie..."
+        />
+        <button class="btn btn-danger" id="search5">Search</button>
+      </div>
+    </nav>
+    <main class="justify-content-center">
+      <!-- cards d-flex justify-content-center p-2 flex-wrap row-gap-4 row-sm-gap-2 column-gap-4 -->
+      <div
+        class="cards p-2 d-flex justify-content-center row-gap-5 flex-wrap row-sm-gap-2 column-gap-5"
+      ></div>
+      <!-- <div class="card bg-dark"> -->
+
+      <!-- <img src="dashboard.jpeg" alt="sample">
+            <div class="details">
+                <p id="title">Dashboard</p>
+                <p class="rating">Rating</p>
+                <button class="button">View</button>
+            </div> -->
+      <!-- </div> -->
+
+      <!-- <div class="modal modal-xl fade" id="modal1">
+            <div class="modal-dialog">
+                
+            </div>
+        </div> -->
+      <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">open</button> -->
+      <div
+        class="modal modal-lg fade"
+        id="modal1"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" id="dialog"></div>
+        <!-- div
+        class="modal modal-lg fade"
+        id="modal2"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" id="dialog1"></div> < -->
+      </div>
+    </main>
+  </body>
+</html>
